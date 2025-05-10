@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url('photos/cloudy.jpg');
+    background-image: url('cloudy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
