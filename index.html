@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-class">
+            <!-- <span class="mode-toggle"><i class="fas fa-moon"></i><i class="fas fa-sun" style="display: none ;"></i></span> -->
+            <span class="app-name">weather.today</span>
+            <span class="user-title">Good morning, Raeedah<span></span></span>
+        </header>
+        <div class="main-container">
+            <div class="main-section">
+                <div class="city-details">
+                    <div class="temp-num">Search for a city to see weather</div>
+                    <div class="temp-toggle">
+                        <span class=" celsius-btn temp-option  active" data-unit="C">°C</span>
+                        <span class=" fahrenheit-btn temp-option" data-unit="F">°F</span>
+                    </div>
+                    <span class="city-name"></span>
+                    <span class="day-date"></span>
+                    <span class="time"></span>
+                    <div class="icon-class">
+                        <span class="weather-description">
+                        </span>
+                        <image class="icon-image"></image>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="side-bar">
+                <div class="search-section">
+                    <input type="search" class="search-bar" placeholder="Search city/location">
+                    <button class="search-button">
+                        <img class="search-icon" src="photos/search-icon.png">
+                    </button>
+                </div>
+                <div class="sample-cities-title">
+                    Suggested Cities
+                </div>
+                <div class="sample-cities">
+                    <button class="btn btn-1" data-city-input="Houston">Houston</button>
+                    <button class="btn btn-2" data-city-input="Abuja">Abuja</button>
+                    <button class="btn btn-3" data-city-input="Dubai">Dubai</button>
+                    <button class="btn btn-4" data-city-input="Lagos">Lagos</button>
+                    <button class="btn current-location" data-city-input="current-location">Current Location</button>
+                </div>
+                
+                <div class="weather-details">
+                    <h6 class="weather-details-title">
+                        Weather Details
+                    </h6>
+                    <div class="details humidity">Humidity <span class="details-fig  humidity-figure"></span></div>
+                    <div class="details cloud">Cloud <span class="details-fig  cloud-figure"></span></div>
+                    <div class="details wind">Wind Speed <span class="details-fig  windspeed-figure"></span></div>
+                </div>
+                <button class="forecast-btn">
+                    Click to see forecast
+                </button>
+            </div>    
+        </div>
+    </div>
+<div class="popup" style="display: none;">
+  <div class="popup-content">
+    <!-- Forecast data will be dynamically inserted here -->
+  </div>
+  <button class="close-popup-btn">X</button>
+</div>
+    <div class="footer">
+        <p style="display: flex; align-items: center; justify-content: center;">Made with ❤️ by Raeedah</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
