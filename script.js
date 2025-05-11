@@ -283,6 +283,12 @@ forecastButton.addEventListener('click', async() => {
         <h2>Error</h2>
         <p>Unable to fetch forecast data. Please try again later.</p>
       `;
+            const closeButton = document.querySelector('.close-popup-btn');
+      if (closeButton) {
+        closeButton.addEventListener('click', () => {
+          popUp.style.display = 'none';
+        });
+      }
     }
   }
 }
