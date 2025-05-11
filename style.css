@@ -57,7 +57,6 @@ body {
     width: 100%;
     flex: 1;
     padding: 0.5rem;
-    /* Removed fixed height calculation to allow flexible growth */
 }
 
 .main-section {
@@ -575,5 +574,10 @@ span {
     
     .icon-image {
         width: 1.5rem;
+    }
+
+    .popup {
+        max-width: 90%; /* Ensure it fits within the screen */
+        padding: 1rem; /* Reduce padding for smaller screens */
     }
 }
