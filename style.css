@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
 }
 
-.user-title {
+.user-greeting {
     margin-right: 0.4rem;
     font-size: 1.8rem;
     font-style: italic;
