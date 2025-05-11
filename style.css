@@ -32,8 +32,6 @@ body {
 .user-greeting {
     margin-right: 0.4rem;
     font-size: 1.8rem;
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 0.5rem;
     color: rgb(44, 35, 23);
 }
