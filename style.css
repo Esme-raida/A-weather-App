@@ -31,7 +31,8 @@ body {
 
 .user-greeting {
     margin-right: 0.4rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
+    font-style: italic;
     margin-top: 0.5rem;
     color: rgb(44, 35, 23);
 }
@@ -341,7 +342,7 @@ span {
 /* Laptop Styles (1024px - 1440px) */
 @media screen and (max-width: 1440px) {
     .app-name, .user-title {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     
     .temp-num {
@@ -377,7 +378,7 @@ span {
     }
     
     .app-name, .user-title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .temp-num {
@@ -446,7 +447,7 @@ span {
     }
     
     .app-name, .user-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .temp-num {
