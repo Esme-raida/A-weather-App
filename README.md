@@ -1,5 +1,5 @@
 # weather.today – Weather App
-
+link 🔗 https://a-weather-app-ten.vercel.app/
 A responsive, dynamic weather application built with HTML, CSS, and JavaScript. It allows users to view current weather conditions, toggle between Celsius and Fahrenheit, view a 3-day forecast, and use their device’s location to get local weather data.  
 
 ## Features
