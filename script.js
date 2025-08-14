@@ -45,8 +45,8 @@ async function fetchWeatherData(cityInput) {
     
     // Determine if cityInput has coords or a city name
     const url = typeof cityInput === 'object' && cityInput.latitude && cityInput.longitude 
-      ? `https://api.weatherapi.com/v1/current.json?key=92b9f4d4665840139e9183605250505&q=${cityInput.latitude},${cityInput.longitude}`
-      : `https://api.weatherapi.com/v1/current.json?key=92b9f4d4665840139e9183605250505&q=${cityInput}`;
+      ? `https://api.weatherapi.com/v1/current.json?key==${cityInput.latitude},${cityInput.longitude}`
+      : `https://api.weatherapi.com/v1/current.json?key==${cityInput}`;
     
     const response = await fetch(url);
     const data = await response.json();
@@ -317,3 +317,4 @@ async function fetchForecastData(cityInput) {
     }
   }
 }
+
